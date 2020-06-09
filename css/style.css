@@ -1,0 +1,518 @@
+body  {
+  font-family: OpenSans, sans-serif;
+  margin: 0;
+  min-width: 320px;
+}
+
+a { 
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.firstpage { 
+  position: relative;
+  background-size: cover;
+  padding-top: 4%;
+}
+
+.firstpage::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+p {
+  margin: 0;
+}
+
+.logo {
+  color: white;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 6% 0 6%;
+  z-index: 2;
+  }
+
+.list {
+  display: flex;
+  padding-left: 0;  
+}
+
+.mainthing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.lookat {
+  color: white;
+}
+
+.maintext {
+  color: white;
+  text-align: center;
+}
+
+.firstquestion {
+  justify-content: center;
+  text-align: center;
+}
+
+.fourfoto {
+  display: flex;
+}
+
+.firstanswer {
+  justify-content: center;
+  text-align: center;
+}
+
+.twopage {  
+  position: relative;
+  background-size: cover;
+}
+
+.twopage::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.maintwotext {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  z-index: 2;
+}
+
+.headourpro {
+  justify-content: center;
+  text-align: center;
+}
+
+.firstpro {
+  display: flex;
+}
+
+.secpro {
+  display: flex;
+}
+
+.thirdpage {  
+  position: relative;
+  background-size: cover;
+}
+
+.thirdpage::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.mainthreetext {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  z-index: 2;
+}
+
+.solutions {
+  display: flex;
+}
+
+.ourrob {
+  display: flex;
+}
+
+.fourpage {  
+  position: relative;
+  background-size: cover;
+}
+
+.fourpage::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.mainfourtext {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  z-index: 2;
+}
+
+.mainexample {
+  display: flex;
+}
+
+.fotorow {
+  display: flex;
+}
+
+.titlefest {
+  justify-content: center;
+  text-align: center;
+}
+
+.fest {
+  display: flex;
+}
+
+.titlefriend {
+  justify-content: center;
+  text-align: center;
+}
+
+.randompeople {
+  display: flex;
+}
+
+.fifthpage {  
+  position: relative;
+  background-size: cover;
+}
+
+.fifthpage::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.mainfifthtext {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  z-index: 2;
+}
+
+.titleregistr {
+  justify-content: center;
+  text-align: center;
+}
+
+.forgpass {
+  color: blue;
+}
+
+.twobuttons {
+  display: flex;
+}
+
+.facebook {
+  border: 1px black solid;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+
+.google {
+  border: 1px black solid;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 1%;
+  margin-right: auto;
+}
+
+.registra {
+  color: blue;
+}
+
+.lastpage {
+  background-color: black;
+  display: flex;
+}
+
+
+@media (min-width: 320px) and (max-width: 639px) {
+  
+}
+
+@media (min-width: 640px) and (max-width: 1439px) {
+  
+}
+
+@media (min-width: 1440px) {
+
+.firstpage {  
+  background-image: url("https://github.com/hounsworm/fin/blob/master/fons/fon%20screen1_1024px.jpg?raw=true");
+  height: 100vh;
+}
+
+.logo {
+  font-size: 48px;
+}
+
+.aboutus {
+  padding: 0 80px 0 0; 
+}
+
+.public {
+ padding: 0 80px 0 0;
+}
+
+.mainthing {
+  padding: 14% 0 25% 0;
+}
+
+.lookat {
+  font-size: 42px;
+}
+
+.maintext {
+  font-size: 20px;
+  width: 40%;
+}
+
+.main {
+  padding: 150px 0 0 0;
+}
+
+.firstquestion {
+  font-size: 24px;
+  margin: 0 0 150px 0;
+}
+
+.fourfoto {
+  flex-wrap: wrap;
+}
+
+.fsfoto {
+  width: 50%;
+  }
+  
+.scfoto {
+  width: 50%;
+}
+  
+.thrfoto {
+  width: 50%;
+}
+  
+.frfoto {
+  width: 50%;
+}
+
+.firstanswer {
+  font-size: 24px;
+  padding: 150px 0 150px 0;
+}
+
+.twopage {  
+  background-image: url("https://github.com/hounsworm/fin/blob/master/fons/canyon-1740973_1280.jpg?raw=true");
+}
+
+.maintwotext {
+  font-size: 28px;
+  width: 40%;
+  padding: 250px 0 250px 0;
+}
+
+.headourpro {
+  font-size: 32px;
+  padding: 100px 0 50px 0;
+}
+
+.firstpro {
+  padding: 0 2% 0 2%;
+}
+
+.fourfotofspro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fsfotofspro {
+  height: 50%;
+}
+
+.thrfotofspro {
+  padding: 0 50px 0 50px;
+}
+
+.profilefspro {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatarfspro {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sean {
+  font-size: 28px;
+  margin: 50px auto 50px auto;
+}
+
+.seaninfo {
+  font-size: 18px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.secpro {
+  padding: 100px 2% 150px 2%;
+}
+
+.fourfotosecpro {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 0 auto;
+}
+
+.profilescpro {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.picsecpro {
+  width: 50%;
+}
+
+.avatarscpro {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stan {
+  font-size: 28px;
+  margin: 50px auto 50px auto;
+}
+
+.staninfo {
+  font-size: 18px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 70%;
+  
+}
+
+.fsfotoscpro {
+  width: 340px;
+  margin-left: auto;
+}
+
+.scfotosecpro {
+  width: 340px;
+  margin-right: auto;
+}
+
+.thrfotoscpro {
+  width: 340px;
+  margin-left: auto;
+}
+
+.frfotoscpro {
+  width: 340px;
+  margin-right: auto;
+}
+
+
+.thirdpage {  
+  background-image: url("https://github.com/hounsworm/fin/blob/master/fons/Mt-Fuji_Fotor1024px.jpg?raw=true");
+}
+
+.mainthreetext {
+  font-size: 28px;
+  width: 40%;
+  padding: 200px 0 200px 0;
+}
+
+.fourpage {  
+  background-image: url("https://github.com/hounsworm/fin/blob/master/fons/umbrella-4692572_1280_Fotor%201280px.jpg?raw=true");
+}
+
+.mainfourtext {
+  font-size: 28px;
+  width: 40%;
+  padding: 200px 0 200px 0;
+}
+
+.titlefest {
+  font-size: 18px;
+  padding: 50px 0 50px 0;
+}
+
+.titlefriend {
+  font-size: 18px;
+  padding: 50px 0 50px 0;
+}
+
+.fifthpage {  
+  background-image: url("https://github.com/hounsworm/fin/blob/master/fons/elephant-2231690_1280_Fotor%201280px.jpg?raw=true");
+}
+
+.mainfifthtext {
+  font-size: 28px;
+  width: 40%;
+  padding: 200px 0 200px 0;
+}
+
+.titleregistr {
+  font-size: 18px;
+  padding: 50px 0 50px 0;
+}
+
+}
+
+
+
+
