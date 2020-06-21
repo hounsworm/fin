@@ -580,6 +580,14 @@ input:focus {
     margin: 25px auto 0 auto;
 }
 
+.registrbut {
+  padding: 0 10px 0 10px;
+}
+
+.passwordbut {
+  padding: 0 10px 0 10px;
+}
+
 .facebook {
   border: 1px black solid;
   width: 100px;
